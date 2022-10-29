@@ -22,16 +22,16 @@ function App() {
             <DefaultButton>Zuri Team</DefaultButton>
           </a>
           <a href=" http://books.zuri.team">
-            <DefaultButton>Zuri Books</DefaultButton>
+            <DefaultButton>Zuri Books <br/> <sub> This is where you find books about design and coding.</sub></DefaultButton>
           </a>
-          <a href="https://books.zuri.team/">
-            <DefaultButton>Python Books</DefaultButton>
+          <a href="https://books.zuri.team/python-for-beginners?ref_id=folajimi">
+            <DefaultButton>Python Books <br/> <sub>Learn python from the best hands.</sub></DefaultButton>
           </a>
           <a href="https://background.zuri.team/">
-            <DefaultButton>Background Check for Coders</DefaultButton>
+            <DefaultButton>Background Check for Coders <br/> <sub>Check your fav's background</sub></DefaultButton>
           </a>
           <a href="https://books.zuri.team/design-rules">
-            <DefaultButton>Design Books</DefaultButton>
+            <DefaultButton>Design Books<br/><sub>Get hand on rules for coding.</sub></DefaultButton>
           </a>
         </div>
         <div className="flex justify-center gap-20 mt-10">
