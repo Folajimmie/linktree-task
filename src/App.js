@@ -8,29 +8,29 @@ import Jimmie from '../src/assets/jimmie.png';
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-screen bg-background">
+    <div className="flex justify-center items-center h-[100%] bg-background">
       <div className="w-[80%]">
         <header>
-          <div className="w-36 h-36 mx-auto pb-10 flex justify-center border rounded-full">
-            <img src={Jimmie} alt="jimmie logo" className="object-contain w-[100%] h-28"/>
+          <div className="w-36 h-36 mx-auto mt-10 pb-10 flex justify-center border rounded-full">
+            <img src={Jimmie} alt="jimmie logo" className="object-contain w-[100%] h-28" id="profile__img"/>
           </div>
-          <p className="text-center text-headline-4 mt-5">Olufolajimmie</p>
-          <p className="text-center text-headline-4 hidden">Folajimi</p>
+          <p className="text-center text-headline-4 mt-5" id="twitter">Olufolajimmie</p>
+          <p className="text-center text-headline-4 hidden" id="slack">Folajimi</p>
         </header>
         <div className="flex flex-col gap-3 mt-10">
-          <a href="https://training.zuri.team/">
+          <a href="https://training.zuri.team/" id="btn__zuri">
             <DefaultButton>Zuri Team</DefaultButton>
           </a>
-          <a href=" http://books.zuri.team">
+          <a href=" http://books.zuri.team" id="books">
             <DefaultButton>Zuri Books <br/> <sub> This is where you find books about design and coding.</sub></DefaultButton>
           </a>
-          <a href="https://books.zuri.team/python-for-beginners?ref_id=folajimi">
+          <a href="https://books.zuri.team/python-for-beginners?ref_id=folajimi" id="book__python">
             <DefaultButton>Python Books <br/> <sub>Learn python from the best hands.</sub></DefaultButton>
           </a>
-          <a href="https://background.zuri.team/">
+          <a href="https://background.zuri.team/" id="pitch">
             <DefaultButton>Background Check for Coders <br/> <sub>Check your fav's background</sub></DefaultButton>
           </a>
-          <a href="https://books.zuri.team/design-rules">
+          <a href="https://books.zuri.team/design-rules" id="book__design">
             <DefaultButton>Design Books<br/><sub>Get hand on rules for coding.</sub></DefaultButton>
           </a>
         </div>
