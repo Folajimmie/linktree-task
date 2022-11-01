@@ -11,7 +11,7 @@ function App() {
     <div className="flex justify-center items-center h-[100%] bg-background">
       <div className="w-[80%]">
         <header>
-          <div className="w-36 h-36 mx-auto mt-10 pb-10 flex justify-center border rounded-full">
+          <div className="w-36 h-36 mx-auto mt-10 pb-10 flex justify-center border rounded-full" id="profile__img">
             <img src={Jimmie} alt="jimmie logo" className="object-contain w-[100%] h-28" id="profile__img"/>
           </div>
           <p className="text-center text-headline-4 mt-5" id="twitter">Olufolajimmie</p>
@@ -19,19 +19,19 @@ function App() {
         </header>
         <div className="flex flex-col gap-3 mt-10">
           <a href="https://training.zuri.team/" id="btn__zuri">
-            <DefaultButton>Zuri Team</DefaultButton>
+            <DefaultButton id="btn__zuri">Zuri Team</DefaultButton>
           </a>
           <a href=" http://books.zuri.team" id="books">
-            <DefaultButton>Zuri Books <br/> <sub> This is where you find books about design and coding.</sub></DefaultButton>
+            <DefaultButton id="books">Zuri Books <br/> <sub> This is where you find books about design and coding.</sub></DefaultButton>
           </a>
           <a href="https://books.zuri.team/python-for-beginners?ref_id=folajimi" id="book__python">
-            <DefaultButton>Python Books <br/> <sub>Learn python from the best hands.</sub></DefaultButton>
+            <DefaultButton id="book__python">Python Books <br/> <sub>Learn python from the best hands.</sub></DefaultButton>
           </a>
           <a href="https://background.zuri.team/" id="pitch">
-            <DefaultButton>Background Check for Coders <br/> <sub>Check your fav's background</sub></DefaultButton>
+            <DefaultButton id="pitch">Background Check for Coders <br/> <sub>Check your fav's background</sub></DefaultButton>
           </a>
           <a href="https://books.zuri.team/design-rules" id="book__design">
-            <DefaultButton>Design Books<br/><sub>Get hand on rules for coding.</sub></DefaultButton>
+            <DefaultButton id="book__design">Design Books<br/><sub>Get hand on rules for coding.</sub></DefaultButton>
           </a>
         </div>
         <div className="flex justify-center gap-20 mt-10">
