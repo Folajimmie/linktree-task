@@ -4,7 +4,7 @@ import ZuriLogo from '../assets/Zuri.png';
 
 export const Footer = () => {
     return(
-        <footer className="mt-10 flex justify-around pb-[38px]">
+        <footer className="flex justify-around pb-[38px]">
           <div>
           <img src={ZuriLogo} alt="zuri logo"/>
           </div>
