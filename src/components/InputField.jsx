@@ -35,7 +35,7 @@ export const CheckBox = ({ label }) => {
     return(
         <div>
             <label className="flex gap-1 ou">
-                <input type="checkbox" className="outline-0" />
+                <input type="checkbox" className="outline-0" required />
                 <span className="text-gray-600 text-body">{label}</span>
             </label>
         </div>
@@ -51,7 +51,7 @@ export const TextareaDefault = ({labelProps, inputProps}) => {
                 {labelProps.title}
             </label>
                 <textarea name="message" id="message" cols="30" rows="3" {...inputProps} required className="flex w-full h-[132px] p-[16px] relative mb-[4px] peer border border-gray-300 rounded-[8px] outline-0"/>
-                <p class="invisible peer-invalid:visible text-error">
+                <p className="invisible peer-invalid:visible text-error">
                 This field cannot be empty
             </p>
         </div>
