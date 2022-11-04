@@ -34,7 +34,7 @@ export const InputPrimary = ({labelProps, inputProps}) => {
 export const CheckBox = ({ label }) => {
     return(
         <div>
-            <label className="flex gap-1 mb-[20px]">
+            <label className="flex gap-1">
                 <input type="checkbox" className="outline-0" required/>
                 <span className="text-gray-600 text-body">{label}</span>
             </label>
