@@ -1,11 +1,10 @@
 import React from "react";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import {DefaultButton} from '../components/Button';
 import SlackLogo from '../assets/slack.png';
 import GithubLogo from '../assets/Icon.png';
-import I4GLogo from '../assets/I4G.png';
-import ZuriLogo from '../assets/Zuri.png';
 import Jimmie from '../assets/jimmie.png';
+import { Footer } from "./Footer";
 
 const Timeline = () => {
     return ( 
@@ -34,9 +33,11 @@ const Timeline = () => {
           <a href="https://books.zuri.team/design-rules" title="Get hand on rules for coding" id="book__design">
             <DefaultButton id="book__design">Design Books</DefaultButton>
           </a>
-          
+          <Link to="/contact">
+            <DefaultButton id="contact">Contact</DefaultButton>          
+          </Link>
         </div>
-        <div className="flex justify-center gap-20 mt-10">
+        <div className="flex justify-center gap-20 mt-10 mb-20">
           <div>
             <a href="https://app.slack">
               <img src={SlackLogo} alt="slack logo"/>
@@ -48,17 +49,7 @@ const Timeline = () => {
             </a>
           </div>
         </div>
-        <footer className="mt-10 flex justify-between">
-          <div>
-          <img src={ZuriLogo} alt="zuri logo"/>
-          </div>
-          <div>
-            <p className="text-center text-gray-500">HNG Internship 9 Frontend Task</p>
-          </div>
-          <div>
-          <img src={I4GLogo} alt="ngressive logo"/>
-          </div>
-        </footer>
+        <Footer />
       </div>
     </div>
      );

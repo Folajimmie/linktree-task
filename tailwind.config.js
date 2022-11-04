@@ -20,6 +20,13 @@ module.exports = {
           100: '#F2F4F7',
           25: '#FCFCFD'
         },
+        'blue': {
+          100: "#B2DDFF",
+          200: "#1570EF",
+          300: "#175CD3",
+          400: "#1570EF",
+        },
+        error: '#F83F23',
       },
       fontFamily: {
         sans: ['Inter', 'sans-serif']
@@ -94,16 +101,16 @@ module.exports = {
           }
         ],
         'headline-5': [
-          '24px',
+          '36px',
           {
-            lineHeight: '29px',
+            lineHeight: '44px',
             letterSpacing: '0em'
           }
         ],
         'headline-5-medium': [
-          '24px',
+          '36px',
           {
-            lineHeight: '29px',
+            lineHeight: '44px',
             letterSpacing: '0em',
             fontWeight: 500
           }
@@ -111,7 +118,14 @@ module.exports = {
         body: [
           '16px',
           {
-            lineHeight: '19px',
+            lineHeight: '24px',
+            letterSpacing: '0.005em'
+          }
+        ],
+        "body-2": [
+          '20px',
+          {
+            lineHeight: '30px',
             letterSpacing: '0.005em'
           }
         ],
@@ -126,14 +140,14 @@ module.exports = {
         caption: [
           '14px',
           {
-            lineHeight: '17px',
+            lineHeight: '20px',
             letterSpacing: '0.004em'
           }
         ],
         caption: [
           '14px',
           {
-            lineHeight: '17px',
+            lineHeight: '20px',
             letterSpacing: '0.004em'
           }
         ],

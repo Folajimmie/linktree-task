@@ -10,3 +10,13 @@ export const DefaultButton = ({ children, className, onClick, ...rest }) => {
       </button>
     );
   };
+export const PrimaryButton = ({ children, className, onClick, ...rest }) => {
+    return (
+      <button
+        className={`${buttonBaseClassName} text-white bg-blue-400 text-button ${className}`}
+        onClick={onClick}
+        {...rest}>
+        {children}
+      </button>
+    );
+  };
